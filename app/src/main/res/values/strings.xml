@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TV Shows</string>
 
+    <string name="activity_tv_show">TV show</string>
+    <string name="activity_player">Video player</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

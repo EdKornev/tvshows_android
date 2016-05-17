@@ -16,6 +16,8 @@ public class TVShowResponse {
     private List<String> genres = new ArrayList<String>();
     private List<String> countries = new ArrayList<String>();
 
+    private List<SeasonResponse> seasons = new ArrayList<>();
+
     public String getId() {
         return id;
     }
@@ -70,5 +72,13 @@ public class TVShowResponse {
 
     public void setCountries(List<String> countries) {
         this.countries = countries;
+    }
+
+    public List<SeasonResponse> getSeasons() {
+        return seasons;
+    }
+
+    public void setSeasons(List<SeasonResponse> seasons) {
+        this.seasons = seasons;
     }
 }

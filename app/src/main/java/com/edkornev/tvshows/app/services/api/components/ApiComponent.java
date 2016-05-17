@@ -1,6 +1,6 @@
 package com.edkornev.tvshows.app.services.api.components;
 
-import com.edkornev.tvshows.app.MainActivity;
+import com.edkornev.tvshows.app.activities.MainActivity;
 import com.edkornev.tvshows.app.services.api.modules.ApiModule;
 import dagger.Component;
 
