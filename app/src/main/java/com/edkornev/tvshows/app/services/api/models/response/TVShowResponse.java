@@ -13,6 +13,7 @@ public class TVShowResponse {
     private String originalTitle;
     private String description;
     private String producer;
+    private String picture;
     private List<String> genres = new ArrayList<String>();
     private List<String> countries = new ArrayList<String>();
 
@@ -80,5 +81,13 @@ public class TVShowResponse {
 
     public void setSeasons(List<SeasonResponse> seasons) {
         this.seasons = seasons;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 }

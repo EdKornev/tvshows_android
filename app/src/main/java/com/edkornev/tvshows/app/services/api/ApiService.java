@@ -15,7 +15,9 @@ import java.util.List;
 public class ApiService {
 
     private static final String DOMAIN = "http://tvshow-edbrown.rhcloud.com";
-    private static final String VERSION = "/serials_server/api/v1";
+    private static final String APP = "/serials_server";
+    private static final String VERSION = APP + "/api/v1";
+    private static final String PICTURE_PATH = DOMAIN + APP + "/pic/";
 
     private Api mApi;
 
@@ -29,6 +31,10 @@ public class ApiService {
         }
 
         return mApi;
+    }
+
+    public String getPictureUrl(String id) {
+        return PICTURE_PATH + id;
     }
 
     public interface Api {

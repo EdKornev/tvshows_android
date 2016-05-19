@@ -2,14 +2,11 @@ package com.edkornev.tvshows.app.activities;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.StringBuilderPrinter;
 import android.widget.MediaController;
 import android.widget.VideoView;
 import com.edkornev.tvshows.app.R;
 import com.edkornev.tvshows.app.services.api.models.response.ShowResponse;
 import com.google.gson.Gson;
-
-import java.text.NumberFormat;
 
 /**
  * Created by Eduard on 18.05.2016.
